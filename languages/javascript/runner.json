@@ -1,0 +1,5 @@
+{
+  "file": "main.js",
+  "binary": "node",
+  "run": ["node", "{file}"]
+}

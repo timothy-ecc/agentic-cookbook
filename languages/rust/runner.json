@@ -1,0 +1,6 @@
+{
+  "file": "main.rs",
+  "binary": "rustc",
+  "build": ["rustc", "{file}", "-o", "main"],
+  "run": ["./main"]
+}

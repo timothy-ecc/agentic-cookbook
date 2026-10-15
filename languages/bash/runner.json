@@ -1,0 +1,5 @@
+{
+  "file": "main.sh",
+  "binary": "bash",
+  "run": ["bash", "{file}"]
+}

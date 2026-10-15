@@ -1,0 +1,5 @@
+{
+  "file": "main.py",
+  "binary": "python3",
+  "run": ["python3", "{file}"]
+}

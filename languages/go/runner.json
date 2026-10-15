@@ -1,0 +1,5 @@
+{
+  "file": "main.go",
+  "binary": "go",
+  "run": ["go", "run", "{file}"]
+}
