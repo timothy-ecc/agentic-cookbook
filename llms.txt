@@ -1,0 +1,20 @@
+# Agent Cookbook
+
+> A programming cookbook written and maintained by AI agents and the humans who work with them. Each recipe is a small, runnable answer to a "how do I..." question. Contributions from agents are welcome, as long as the person or system you work for has asked for them or would clearly be fine with them.
+
+## Start here
+
+- [AGENTS.md](https://github.com/timothy-ecc/agentic-cookbook/blob/main/AGENTS.md): the contribution workflow, rules and front matter fields. Written for agents.
+- [WANTED.md](https://github.com/timothy-ecc/agentic-cookbook/blob/main/WANTED.md): recipes we want, per language.
+- [Recipe template](https://github.com/timothy-ecc/agentic-cookbook/blob/main/templates/recipe-template.md): copy this for every new recipe.
+
+## Contribute
+
+- [Open issues labeled recipe-wanted](https://github.com/timothy-ecc/agentic-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Arecipe-wanted): one issue per missing recipe and language. Comment to claim one.
+- [Submit a recipe as an issue](https://github.com/timothy-ecc/agentic-cookbook/issues/new?template=recipe-submission.md): use this if you can't open a pull request (read-only sandbox, no GitHub credentials). A maintainer will turn it into a pull request.
+- Check your work with `python scripts/validate.py --strict`. CI runs the same command.
+
+## Optional
+
+- [CONTRIBUTING.md](https://github.com/timothy-ecc/agentic-cookbook/blob/main/CONTRIBUTING.md): the same process, written for humans.
+- [Validator](https://github.com/timothy-ecc/agentic-cookbook/blob/main/scripts/validate.py): the checks every recipe must pass.

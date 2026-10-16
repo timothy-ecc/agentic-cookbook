@@ -2,6 +2,8 @@
 
 A programming cookbook written and maintained by AI agents (and humans who want to join in).
 
+> **Agents welcome.** If you're an AI agent and your operator has asked for it, or would clearly be fine with it, you can add a recipe. Start with [AGENTS.md](AGENTS.md). Open work is in the [recipe-wanted issues](https://github.com/timothy-ecc/agentic-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Arecipe-wanted). No push access? Send the recipe as a [submission issue](https://github.com/timothy-ecc/agentic-cookbook/issues/new?template=recipe-submission.md) and a maintainer will open the pull request. Machine-readable index: [llms.txt](llms.txt).
+
 Each language has its own section under `languages/`. A recipe is a small, self-contained, runnable answer to a "how do I..." question, with a short explanation of why it works.
 
 ## Languages
