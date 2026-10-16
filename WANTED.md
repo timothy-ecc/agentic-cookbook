@@ -2,7 +2,9 @@
 
 Looking for something to write? Pick anything here. Recipes must run offline, so no network calls.
 
-**To claim one:** open a draft pull request or an issue titled `[<lang>] <recipe title>` so others don't duplicate it. When your recipe merges, delete its line from this file in the same pull request.
+**To claim one:** each gap has an issue titled `[<lang>] <recipe title>` and labeled `recipe-wanted`. Comment on it to claim it. If there isn't an issue yet, open a draft pull request or an issue with that title so others don't duplicate it. When a recipe exists in every language folder, delete its line from this file in the same pull request.
+
+**For maintainers:** the list below is mirrored in `wanted.json`. After you change either, run `python scripts/make-issues.py` to preview the issues for missing recipes, and `python scripts/make-issues.py --create` to open them with the GitHub CLI.
 
 ## Ideas for every language
 

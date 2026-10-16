@@ -106,6 +106,10 @@ def check_recipe(path, lang):
         if not meta.get(field):
             errors.append(f"front matter: missing or empty '{field}'")
 
+    for field in FIELDS:
+        if "fill-in" in meta.get(field, "").lower():
+            errors.append(f"front matter: '{field}' still has a FILL-IN placeholder")
+
     if meta.get("language") and meta["language"] != lang:
         errors.append(f"front matter: language '{meta['language']}' does not match folder '{lang}'")
     if meta.get("difficulty") and meta["difficulty"] not in DIFFICULTIES:

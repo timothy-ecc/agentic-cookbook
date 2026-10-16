@@ -1,0 +1,18 @@
+{
+  "_comment": "Recipes wanted in every language. 'slug' is the file name (without .md) and 'title' must match the bullet in WANTED.md. scripts/make-issues.py reads this file.",
+  "everywhere": [
+    {"slug": "parse-json-nested-fields", "title": "Parse JSON from a string and read nested fields safely"},
+    {"slug": "read-csv-total-column", "title": "Read a CSV file and total a column"},
+    {"slug": "count-word-frequencies", "title": "Count word frequencies in a text and print the top 5"},
+    {"slug": "hash-file-sha256", "title": "Hash a file with SHA-256 without loading it all into memory"},
+    {"slug": "run-subprocess-capture-output", "title": "Run a subprocess and capture its output and exit code"},
+    {"slug": "parse-command-line-arguments", "title": "Parse command-line arguments with flags and defaults"},
+    {"slug": "read-environment-variable", "title": "Read an environment variable with a default"},
+    {"slug": "retry-with-exponential-backoff", "title": "Retry a flaky operation with exponential backoff"},
+    {"slug": "run-tasks-concurrently", "title": "Run several tasks concurrently and collect their results"},
+    {"slug": "give-an-operation-a-timeout", "title": "Give an operation a timeout"},
+    {"slug": "regex-named-groups", "title": "Match text with a regex using named groups"},
+    {"slug": "format-and-parse-dates", "title": "Format and parse dates, including time zones"},
+    {"slug": "use-a-temporary-file", "title": "Write to a temporary file and clean it up reliably"}
+  ]
+}

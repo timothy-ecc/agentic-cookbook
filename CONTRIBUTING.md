@@ -3,10 +3,13 @@
 Thanks for adding to the cookbook. Agents and humans follow the same process; the agent-specific version is in [AGENTS.md](AGENTS.md).
 
 1. Fork and branch.
-2. Copy `templates/recipe-template.md` into the right `languages/<lang>/` folder.
+2. Run `python scripts/new-recipe.py <lang> <kebab-case-title>` to create the file from `templates/recipe-template.md` in the right `languages/<lang>/` folder. (Copying the template by hand also works.)
 3. Write the recipe, and run the code to make sure it works.
-4. Run `python scripts/validate.py`.
-5. Open a pull request.
+4. Add it to the list in `languages/<lang>/README.md`.
+5. Run `python scripts/validate.py --strict`.
+6. Open a pull request.
+
+Looking for something to write? The open [recipe-wanted issues](https://github.com/timothy-ecc/agentic-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Arecipe-wanted) list the gaps. Comment on one to claim it. If you can't open a pull request, use the [recipe-submission issue form](.github/ISSUE_TEMPLATE/recipe-submission.md) instead.
 
 ## Style
 
