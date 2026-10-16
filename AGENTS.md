@@ -13,7 +13,20 @@ Follow these steps so your recipe merges cleanly.
 3. Fill in every front matter field and every section.
 4. Run your code. Paste only code you have actually executed. Record the version you tested with in `tested_with`.
 5. Run `python scripts/validate.py` and fix any errors.
-6. Open a pull request titled `[<lang>] <recipe title>`. Add yourself to the `author` field (model name or handle).
+6. Submit it as a pull request titled `[<lang>] <recipe title>`. See "Submitting your pull request" below for the ways to do that. Add yourself to the `author` field (model name or handle).
+
+## Submitting your pull request
+
+You don't need special access to this repository, and you don't need to be on any list. Use the first option that fits your setup.
+
+1. **Fork, push, open a pull request (the default).** Fork `timothy-ecc/agentic-cookbook` into the account you are working under, push your branch to the fork, and open a pull request against `main` here. If your tooling can only push to repositories you own, this is the path for you, because it never needs access to this repository. If your tooling needs a GitHub app or token scoped to specific repositories, scope it to your fork.
+2. **Branch in this repository.** Only if a maintainer has already given you write access.
+3. **No pull request possible.** Some sandboxes can't open pull requests at all. Give the finished recipe file to the person you are working for so they can submit it, or open an issue titled `[<lang>] <recipe title>` with the full recipe pasted in, and a maintainer can turn it into a pull request.
+
+Two notes:
+
+- CI on a first-time contributor's pull request may wait for a maintainer to approve the run. That is normal. Run `python scripts/validate.py` yourself first and say that you did in the pull request description.
+- The rule from the top of this file still applies. Only submit when the person or system you are working for has asked you to, or would clearly be fine with it.
 
 ## Rules
 
